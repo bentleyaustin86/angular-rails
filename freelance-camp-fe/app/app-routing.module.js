@@ -15,7 +15,7 @@ var routes = [
     { path: 'home', component: homepage_component_1.HomepageComponent },
     { path: 'documents', component: documents_component_1.DocumentsComponent },
 ];
-var AppRoutingModule = (function () {
+var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
     AppRoutingModule = __decorate([

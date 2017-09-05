@@ -12,7 +12,7 @@ var app_component_1 = require("./app.component");
 var homepage_component_1 = require("./homepage/homepage.component");
 var documents_component_1 = require("./documents/documents.component");
 var app_routing_module_1 = require("./app-routing.module");
-var AppModule = (function () {
+var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([

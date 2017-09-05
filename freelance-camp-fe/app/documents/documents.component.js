@@ -7,8 +7,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var DocumentsComponent = (function () {
+var DocumentsComponent = /** @class */ (function () {
     function DocumentsComponent() {
+        this.documents = [
+            {
+                title: "My First Doc",
+                description: 'asdfasdfasdf asdfasd',
+                file_url: 'http://google.com',
+                updated_at: '09/04/2017',
+                image_url: 'http://google.com',
+            },
+            {
+                title: "My Second Doc",
+                description: 'asdfasdfasdf asdfasd',
+                file_url: 'http://google.com',
+                updated_at: '09/04/2017',
+                image_url: 'http://google.com',
+            },
+            {
+                title: "My Third Doc",
+                description: 'asdfasdfasdf asdfasd',
+                file_url: 'http://google.com',
+                updated_at: '09/04/2017',
+                image_url: 'http://google.com',
+            }
+        ];
     }
     DocumentsComponent = __decorate([
         core_1.Component({
