@@ -3,9 +3,10 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Proposal } from './proposal';
 
 @Component({
-  moduleId: module.id, 
+  moduleId: module.id,
   selector: 'proposal-show',
-  templateUrl: 'proposal-show.component.html'
+  templateUrl: 'proposal-show.component.html',
+  styleUrls: ['proposal-show.component.css']
 })
 export class ProposalShowComponent implements OnInit {
   id: number;
@@ -17,9 +18,9 @@ export class ProposalShowComponent implements OnInit {
 
   ngOnInit(): void {
     this.routeId = this.route.params.subscribe(
-      params => {
-        this.id = +params ['id'];
-      }
-    )
+        params => {
+          this.id = +params['id'];
+        }
+      )
   }
 }
